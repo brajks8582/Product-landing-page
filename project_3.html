@@ -2,14 +2,7 @@
 #description {
     margin: 20px;
 }
-.row {
-  display: flex;
-}
 
-.column {
-  flex: 49%;
-
-}  
 
 #header-img {
     max-width: 250px;
@@ -25,27 +18,9 @@ nav {
     color:blue;
     position: relative;
     bottom: 60px;
-    
+}   
 
-}
 
-p {
-    font-size: 180%;
-    
-}
-
-#img-one {
-    width: 100%;
-    height: 100%;
-}
-#img-two {
-    width: 100%;
-    height: 100%;
-}
-#img-three { 
-    width: 100%;
-    height: 100%;
-}
 a:hover {
     color:blue;
     font-size: 50px;
@@ -55,11 +30,47 @@ a {
     color: red;
 }
 
-#key {
 
+#description {
+    margin: 20px;
+}
+
+#img-one {
+    width: 60%;
+    float: left;
+}
+
+#description-one {
+    width: 37%;
+    float: right;
+}
+
+#img-two {
+    width: 60%;
+    float: right;
+}
+
+#description-two {
+    width: 37%;
+    float: left;
+}
+
+#img-three {
+    width: 60%;
+    float: left;
+}
+
+#description-three {
+    width: 37%;
+    float: right;
+}
+
+
+#key {
     margin: 50px;   
     font-size: 200%;
-    
+    position: relative;
+    top: 1700px;
 }
 
 li {
@@ -67,23 +78,28 @@ li {
 }
 
 #features {
-  
     font-size: 220%;
     font-weight: strong;
     color: red;
+    
 }
 
 #price {
-    
     top: 150px;
     font-size: 200%;
+    position: relative;
+    top: 2000px;
 }
 
 #price-label {
     font-size: 220%;
     font-weight: strong;
     color: red;
+}
 
+#video {
+    position: relative;
+    top: 1000px;
 }
 
 </style>
@@ -103,38 +119,18 @@ li {
         </header>
         <div id="description" >
             
-                <div class="row">
-                        <div class="column">
-                          <img id="img-one" src="https://cdn.mos.cms.futurecdn.net/5unyi9ExVuXenYGvgNUTEM-768-80.jpg"  >
-                        </div>
-                        <div class="column">
-                                <p id="description-one">The OnePlus 7 and OnePlus 7 Pro are Android smartphones from OnePlus.
-                                     They were unveiled 14 May 2019.The 7 Pro was received positively,with CNET </p>
-                        </div>
-                        
-                </div> 
-                <div class="row">
-                        <div class="column">
-                                <p id="description-two"> giving it an 8.8/10,[10] The Verge giving it an 8.5/10,[11] Wired giving it an 8/10[12] and Engadget giving it a 91.[13] The screen,
-                                        performance,</p>
-                        </div>
-                        <div class="column">
-                                <img id="img-two" src="https://assets.mspimages.in/gear/wp-content/uploads/2019/03/OnePlus7-07.jpg" >
+            <img id="img-one" src="https://cdn.mos.cms.futurecdn.net/5unyi9ExVuXenYGvgNUTEM-768-80.jpg"  >
+            <p id="description-one">The OnePlus 7 and OnePlus 7 Pro are Android smartphones from OnePlus.
+                They were unveiled 14 May 2019.The 7 Pro was received positively,with CNET </p>
     
-                        </div>
-                </div>
+                <img id="img-two" src="https://assets.mspimages.in/gear/wp-content/uploads/2019/03/OnePlus7-07.jpg" >
+                <p id="description-two"> giving it an 8.8/10,[10] The Verge giving it an 8.5/10,[11] Wired giving it an 8/10[12] and Engadget giving it a 91.[13] The screen,
+                    performance,</p>
     
-                <div class="row">
-                        <div class="column">
-                          <img id="img-three" src="https://assets.mspimages.in/wp-content/uploads/2019/05/OnePlus-7-Pro-1-696x365.jpg"  >
-                        </div>
-                        <div class="column">
-                                <p id="description-three">cameras and design were all praised, but it received some criticism for the lack of an IP Rating,
-                                        wireless charging and a headphone jack. Engadget called it "a beast of a device that delivers
-                                         fantastic mobile cinematic plus gaming experience, and one that’s in a well-designed package". </p>
-                        </div>
-                        
-                </div> 
+                    <img id="img-three" src="https://assets.mspimages.in/wp-content/uploads/2019/05/OnePlus-7-Pro-1-696x365.jpg"  >
+                    <p id="description-three">cameras and design were all praised, but it received some criticism for the lack of an IP Rating,
+                        wireless charging and a headphone jack. Engadget called it "a beast of a device that delivers
+                         fantastic mobile cinematic plus gaming experience, and one that’s in a well-designed package". </p>
                 
         </div>
         <div id="key">
@@ -160,7 +156,7 @@ li {
         </div>
         <div id="video-div">
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ls_dxo6vNTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" id="video" height="315" src="https://www.youtube.com/embed/Ls_dxo6vNTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                
     
